@@ -1,0 +1,6 @@
+{
+  "name": "LARRONDA — Cardápio Digital",
+  "description": "Cardápio digital interativo multilíngue (PT/ES/EN) do restaurante LARRONDA — Compartir Alimenta, com suporte PWA e guia de instalação iOS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

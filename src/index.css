@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-script: "Ms Madi", cursive;
+  --color-terracotta: #8D482E;
+  --color-terracotta-warm: #954B31;
+  --color-paper: #E2D8CE;
+  --color-paper-light: #EFE8DF;
+  --color-paper-card: #F5EFE8;
+  --color-olive: #878A60;
+  --color-olive-deep: #6C7048;
+  --color-ink: #2E2B2B;
+  --color-ink-muted: #5C4940;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: "Poppins", ui-sans-serif, system-ui, sans-serif;
+    background-color: #E2D8CE;
+    color: #2E2B2B;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+.font-script {
+  font-family: "Ms Madi", cursive;
+}
+
+.paper-surface {
+  background-color: #E2D8CE;
+  background-image: linear-gradient(rgba(226, 216, 206, 0.88), rgba(226, 216, 206, 0.88)), url("/images/paper-texture.jpg");
+  background-size: 520px auto;
+}
+
+.terracotta-cover {
+  background-color: #8D482E;
+  background-image: linear-gradient(155deg, rgba(141, 72, 46, 0.86), rgba(122, 59, 36, 0.92)), url("/images/leaf-shadows.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.pb-safe {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
