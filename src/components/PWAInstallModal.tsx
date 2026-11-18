@@ -67,7 +67,7 @@ export const PWAInstallModal: React.FC<PWAInstallModalProps> = ({
         <div className="terracotta-cover text-[#E2D8CE] px-6 py-5 flex items-start justify-between gap-4">
           <div className="flex items-center gap-3.5">
             <div className="w-12 h-12 rounded-xl bg-[#E2D8CE]/15 border border-[#E2D8CE]/25 text-[#E2D8CE] flex items-center justify-center shrink-0">
-              <BrandEmblem className="w-8 h-5" />
+              <BrandEmblem className="w-8" />
             </div>
             <div>
               <h2 id="pwa-modal-title" className="text-lg font-semibold text-[#F5EFE8] leading-snug">

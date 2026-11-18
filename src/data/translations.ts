@@ -72,6 +72,7 @@ export const UI_COPY: Record<
       askGf: string;
       estPrefix: string;
       exclTax: string;
+      readMore: string;
     };
     dishModal: {
       addToRonda: string;
@@ -192,6 +193,7 @@ export const UI_COPY: Record<
       askGf: '* Consulte as opções sem glúten',
       estPrefix: 'aprox.',
       exclTax: 'SEM IMPOSTOS NACIONAIS',
+      readMore: 'Ver descrição completa',
     },
     dishModal: {
       addToRonda: 'Adicionar à Minha Ronda',
@@ -321,6 +323,7 @@ export const UI_COPY: Record<
       askGf: '* Consultar opciones sin TACC',
       estPrefix: 'aprox.',
       exclTax: 'SIN IMPUESTOS NACIONALES',
+      readMore: 'Ver descripción completa',
     },
     dishModal: {
       addToRonda: 'Sumar a Mi Ronda',
@@ -450,6 +453,7 @@ export const UI_COPY: Record<
       askGf: '* Ask about our gluten-free options',
       estPrefix: 'est.',
       exclTax: 'EXCL. NATIONAL TAXES',
+      readMore: 'Read full description',
     },
     dishModal: {
       addToRonda: 'Add to My Round',

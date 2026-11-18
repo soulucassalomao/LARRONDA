@@ -243,7 +243,7 @@ export default function App() {
             href="#top"
             className="flex items-center gap-2.5 text-[#8D482E] whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#8D482E] rounded"
           >
-            <BrandEmblem className="w-7 h-4" />
+            <BrandEmblem className="w-8" />
             <BrandWordmark className="text-base sm:text-lg font-medium" />
           </a>
 
@@ -335,7 +335,7 @@ export default function App() {
 
             <div className="space-y-4">
               <div className="inline-flex flex-col items-start">
-                <BrandEmblem className="w-16 h-9 text-[#E2D8CE] mb-2" />
+                <BrandEmblem className="w-16 text-[#E2D8CE] mb-2" />
                 <div className="text-3xl sm:text-4xl tracking-[0.18em] font-normal uppercase text-[#E2D8CE]">
                   LARRONDA
                 </div>
@@ -810,7 +810,7 @@ export default function App() {
             <div className="lg:col-span-5 rounded-3xl bg-[#EFE8DF] border border-[#8D482E]/20 p-6 sm:p-8 flex flex-col justify-between gap-5">
               <div className="flex items-start gap-3.5">
                 <div className="w-12 h-12 rounded-2xl bg-[#8D482E] text-[#E2D8CE] flex items-center justify-center shrink-0">
-                  <BrandEmblem className="w-8 h-5" />
+                  <BrandEmblem className="w-8" />
                 </div>
                 <div>
                   <h3 className="text-base font-semibold text-[#2E2B2B]">
@@ -840,7 +840,7 @@ export default function App() {
         <p className="font-medium text-[#2E2B2B]">{copy.footer.allergyNotice}</p>
         <p className="max-w-2xl mx-auto leading-relaxed">{copy.footer.currencyNotice}</p>
         <div className="pt-3 flex items-center justify-center gap-3 text-[#8D482E]">
-          <BrandEmblem className="w-6 h-3.5" />
+          <BrandEmblem className="w-6" />
           <span className="tracking-[0.16em] text-xs font-medium uppercase">LARRONDA</span>
           <span aria-hidden="true">·</span>
           <a

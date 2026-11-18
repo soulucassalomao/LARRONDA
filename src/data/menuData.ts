@@ -1633,7 +1633,7 @@ export const MENU_ITEMS: MenuItem[] = [
     },
     description: {
       pt: 'Bolo vegano intensamente achocolatado da LARRONDA, com ganache de chocolate e frutas vermelhas',
-      es: 'Torta vegetal chocolatosa larronda con ganache de chocolate y frutos rojos',
+      es: 'Torta vegetal chocolatosa LARRONDA con ganache de chocolate y frutos rojos',
       en: "LARRONDA's rich vegan chocolate cake with chocolate ganache and berries",
     },
     priceArs: 8000,
